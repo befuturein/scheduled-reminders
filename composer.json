@@ -3,6 +3,12 @@
   "description": "Flexible scheduled reminders package for Laravel.",
   "type": "library",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Muratcan Kayalak (BeFuture Interactive)",
+      "homepage": "https://befuture.in"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "BeFuture\\ScheduledReminders\\": "src/"
