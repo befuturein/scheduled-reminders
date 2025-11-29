@@ -1,5 +1,7 @@
 # BeFuture Scheduled Reminders
 
+[![Tests](https://github.com/befuturein/scheduled-reminders/actions/workflows/tests.yml/badge.svg)](https://github.com/befuturein/scheduled-reminders/actions/workflows/tests.yml)
+
 BeFuture Scheduled Reminders is a simple, extensible, and reliable scheduled reminder package for Laravel. It stores reminders in the database, processes them when their scheduled time arrives, and dispatches an event so you can send notifications through any channel (email, SMS, push, database, etc.).
 
 ## Features
