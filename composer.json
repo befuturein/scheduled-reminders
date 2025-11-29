@@ -1,0 +1,31 @@
+{
+  "name": "befuturein/scheduled-reminders",
+  "description": "Flexible scheduled reminders package for Laravel.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BeFuture\\ScheduledReminders\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BeFuture\\ScheduledReminders\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "BeFuture\\ScheduledReminders\\ScheduledRemindersServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
