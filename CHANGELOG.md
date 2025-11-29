@@ -10,6 +10,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - (Placeholder) Future improvements and new features will be listed here.
 
+## [v0.1.1] - 2025-11-29
+
+### Changed
+- Raised the minimum required PHP version from `^8.1` to `^8.2` to match the underlying Laravel and Symfony component requirements.
+- Updated the GitHub Actions CI matrix to test against PHP 8.2 and 8.3 only.
+- Ensured the package’s CI workflow and Packagist metadata are consistent with the supported PHP versions.
+
 ## [v0.1.0] - 2025-11-29
 
 ### Added
